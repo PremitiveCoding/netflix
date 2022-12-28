@@ -1,0 +1,21 @@
+{
+  "name": "netflix",
+  "version": "1.0.0",
+  "description": "# Lessons",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd api && npm install  && cd ../client && npm install && npm run build",
+    "start": "node api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url":"git+https://github.com/PremitiveCoding/netflix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PremitiveCoding/netflix"
+  },
+  "homepage": "https://github.com/PremitiveCoding/netflix#readme"
+}
